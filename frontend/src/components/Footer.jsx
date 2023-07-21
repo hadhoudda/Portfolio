@@ -1,4 +1,4 @@
-import "../styles/Footer.css";
+import "../styles/footer.css";
 //import React from "react";
 //import { NavLink, Link } from "react-router-dom";
 

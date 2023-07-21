@@ -1,10 +1,14 @@
-import "../styles/Header.css";
-//import React from "react";
+import "../styles/header.css";
+import React from "react";
 //import { NavLink, Link } from "react-router-dom";
 
 function Header() {
     return (
-        <div> Header</div>
+        <header className="header">
+            <nav className="nav container">
+                <a href="index.html" className="nav_logo">Smith</a>
+            </nav>
+        </header>
     )
 }
 
