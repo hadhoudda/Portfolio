@@ -1,0 +1,17 @@
+.profil{
+    height: 100vh;
+    background-color: white;
+    font: inherit ;
+    
+}
+p{
+    color: black;
+}
+.profil .liste,
+.profil .liste-responsive   {
+    background-color: rgb(45, 45, 55);
+}
+
+.profil .btn {
+    color: black;
+}
