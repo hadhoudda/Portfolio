@@ -23,9 +23,7 @@ h1{
     .txt-home{
         font-size: 20px ;
     }
-
 }
-
 
 /* RESPONSIVE CSS */
 @media screen and (max-width: 680px) {

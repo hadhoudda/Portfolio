@@ -60,9 +60,8 @@ nav{
         gap: 1px;
         padding-right: 0px;
         padding-top: 20px;
-        /* background-color: rgba(139, 202, 227, 0.1); */
     }
-    .liste-responsive  a:hover{
+    .liste-responsive .items a:hover{
         color:#0ef ;
         box-shadow: 0 0 20px #0ef;
     }

@@ -1,11 +1,27 @@
 .profil{
     height: 100vh;
-    background-color: white;
+    background-color: rgb(239, 242, 235);
     font: inherit ;
-    
+    padding: 50px;
+   
+}
+h2{
+    color: black;
+    text-align: center;
+    font-size: 42px;
+    padding-top: 20px;
 }
 p{
-    color: black;
+     color: black;
+}
+.contenu-profil{
+    display: flex;
+    gap: 50px;
+    margin: 100px 100px 0 100px;
+}
+.photo-profil {
+    width: 500px;
+    height: auto;
 }
 .profil .liste,
 .profil .liste-responsive   {
