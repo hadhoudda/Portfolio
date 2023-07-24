@@ -6,7 +6,7 @@ function Profil() {
     return (
         <div className="profil" id="profil">
             
-            <Navbar className="nav-fixed"/>
+            {/* <Navbar className="nav-fixed"/> */}
             <p>houda</p>
         </div>
     )

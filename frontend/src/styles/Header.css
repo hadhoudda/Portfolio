@@ -2,7 +2,9 @@
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
+    /* background-color: rgba(139, 202, 227, 0.1); */
 }
+
 
 .logo-profil{
     border-radius: 50px;
@@ -10,15 +12,25 @@
     width: 80px;
     margin-left: 60px;
     margin-top: -10px;
+    position: fixed;
+    background:#0ef ;
+    box-shadow: 0 0 20px #0ef;
 }
+
+.logo-profil:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+
 
 /* RESPONSIVE CSS */
 @media screen and (max-width: 992px) {
     .logo-profil{
         border-radius: 50px;
-        height: 40px;
-        width: 40px;
-        margin-left: 60px;
+        height: 60px;
+        width: 60px;
+        margin-left: 20px;
         margin-top: 10px;
     }
 }
@@ -26,10 +38,11 @@
 /* RESPONSIVE CSS */
 @media screen and (max-width: 680px) {
     .header {
-        padding-top: 0px;
+        padding-top: 10px;
     }
-    .logo-profil{
+    /* .logo-profil{
         display: none;
-    }
+    } */
+    
 }
     

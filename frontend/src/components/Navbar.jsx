@@ -25,6 +25,7 @@ function Navbar() {
   return (
     <nav className='nav-responsive'>
             <ul className="liste">
+                {/* <li className="items"><Link to = '#aboute'>Accueil</Link> </li> */}
                 <li className="items"><a href="#aboute">Accueil</a> </li>
                 <li className="items"><a href="#profil"> Profil</a></li>
                 <li className="items"><a href="#competance">Compétences</a></li>
