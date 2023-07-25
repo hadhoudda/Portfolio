@@ -32,6 +32,7 @@ nav{
     display: none;
 }
 
+
 /* RESPONSIVE CSS */
 @media screen and (max-width: 920px) {
     .liste{
@@ -46,31 +47,43 @@ nav{
 /* RESPONSIVE CSS */
 @media screen and (max-width: 680px) {
     nav {
-        width: 30%;
-        position: fixed;
-        right: 0;
+        width: 100%;
+        
     }
     
     .liste{
         display: none;
     }
     .liste-responsive {
+        background-color: rgba(10, 18, 21, 0.9);
         flex-direction: column;
-        height: 200px;
+        justify-content: start;
         gap: 1px;
-        padding-right: 0px;
-        padding-top: 20px;
+        
+        /* height: 200px; */
+        padding: 20px;
+        height: 93vh;
     }
     .liste-responsive .items a:hover{
-        color:#0ef ;
-        box-shadow: 0 0 20px #0ef;
+        scale: 1.05;
+        /* color:#0ef ;
+        box-shadow: 0 0 20px #0ef; */
     }
     .items {
+        font-size: 22px;
+        text-align: center;
+        padding-bottom: 5px;
         height: 40px;
+        width: 80%;
         line-height: 50px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
 
+    }    
+    .liste-responsive a{
+        font-size: 22px;
+        font-weight: 200;
     }
-    
+
     .btn {
         display: block;
         position: absolute;
@@ -78,4 +91,5 @@ nav{
         top: 10px;
         cursor: pointer;
     }
+   
 }

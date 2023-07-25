@@ -5,7 +5,10 @@
 
 h1{
     font-size: 56px;
+    font-weight: 600;
+    text-align: center;
     margin: 30px;
+    animation: slideRight 1s ease forwards;
 }
 
 .txt-home{
@@ -13,7 +16,21 @@ h1{
     font-size: 28px ;
 }
 
+/* KEYFRAMES ANIMATION */
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 /* RESPONSIVE CSS */
+
 @media screen and (max-width: 920px) {
     h1{
         margin: 30px;
@@ -29,13 +46,13 @@ h1{
 @media screen and (max-width: 680px) {
     h1{
         font-size: 26px;
+        font-weight: 500;
     }
     
     .txt-home{
         font-size: 20px ;
     }
     .section-home{
-        text-align: center;
-        margin-top: 300px;
+        margin-top: 220px;
     }
 }

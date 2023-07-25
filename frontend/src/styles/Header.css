@@ -2,7 +2,6 @@
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
-    /* background-color: rgba(139, 202, 227, 0.1); */
 }
 
 
@@ -40,9 +39,6 @@
     .header {
         padding-top: 10px;
     }
-    /* .logo-profil{
-        display: none;
-    } */
-    
+   
 }
     

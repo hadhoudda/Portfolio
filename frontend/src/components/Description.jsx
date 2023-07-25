@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/description.css'
-import Reseau from "./Reseau";
+import SocialMedia from "./SocialMedia";
 
 function Description() {
   return (
@@ -9,7 +9,7 @@ function Description() {
         <p className="txt-home">
             Développeur Web React Js/ Node.Js
         </p>
-        <Reseau />
+        <SocialMedia />
     </section>
   )
 }
