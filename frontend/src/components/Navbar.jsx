@@ -26,7 +26,7 @@ function Navbar() {
     <nav className='nav-responsive'>
             <ul className="liste">
                 {/* <li className="items"><Link to = '#aboute'>Accueil</Link> </li> */}
-                <li className="items" ><a href="#aboute" >Accueil</a> </li>
+                <li className="items" ><a href="#home" >Accueil</a> </li>
                 <li className="items"><a href="#profil"> À propos</a></li>
                 <li className="items"><a href="#competance">Compétences</a></li>
                 <li className="items"><a href="#portfolio">Portfolio</a></li>
@@ -34,7 +34,7 @@ function Navbar() {
             </ul>
         {toggleMenu && ( //si toggleMenu true envoi liste si false rien de tout
             <ul className=" liste-responsive">
-                <div onClick={toggleNavSmallScreen}className="items"><a href="#aboute">Accueil</a></div>
+                <div onClick={toggleNavSmallScreen}className="items"><a href="#home">Accueil</a></div>
                 <div onClick={toggleNavSmallScreen} className="items"><a href="#profil"> À propos</a></div>
                 <div onClick={toggleNavSmallScreen} className="items"><a href="#competance">Compétences</a></div>
                 <div onClick={toggleNavSmallScreen} className="items"><a href="#portfolio">Portfolio</a></div>

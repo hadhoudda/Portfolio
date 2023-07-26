@@ -3,6 +3,7 @@
 }
 
 nav{
+   
     font-size: 22px;
     height: 50px;
 }
@@ -32,7 +33,6 @@ nav{
     display: none;
 }
 
-
 /* RESPONSIVE CSS */
 @media screen and (max-width: 920px) {
     .liste{
@@ -48,7 +48,7 @@ nav{
 @media screen and (max-width: 680px) {
     nav {
         width: 100%;
-        
+        margin : -20px 0 0 -50px;
     }
     
     .liste{
@@ -57,17 +57,14 @@ nav{
     .liste-responsive {
         background-color: rgba(10, 18, 21, 0.9);
         flex-direction: column;
+        justify-content: center;
         justify-content: start;
         gap: 1px;
-        
-        /* height: 200px; */
-        padding: 20px;
+        padding: 70px 0 0 0;
         height: 93vh;
     }
     .liste-responsive .items a:hover{
         scale: 1.05;
-        /* color:#0ef ;
-        box-shadow: 0 0 20px #0ef; */
     }
     .items {
         font-size: 22px;
@@ -90,6 +87,5 @@ nav{
         right: 10px;
         top: 10px;
         cursor: pointer;
-    }
-   
+    } 
 }

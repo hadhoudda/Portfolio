@@ -5,12 +5,12 @@ import logo from "../assets/houda.png"
 
 function Header() {
     return (
-        <div className="head">
+        <header>
             <div className="header ">
                 <a href="#home"><img className ="logo-profil" src={logo} alt='image__houda' /></a>
                 <Navbar/>
             </div>
-        </div>
+        </header>
         
     )
 }
