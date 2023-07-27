@@ -25,12 +25,12 @@ function Navbar() {
   return (
     <nav className='nav-responsive'>
             <ul className="liste">
-                {/* <li className="items"><Link to = '#aboute'>Accueil</Link> </li> */}
+                {/* <li className="items"><Link to = '/'>Accueil</Link> </li> */}
                 <li className="items" ><a href="#home" >Accueil</a> </li>
                 <li className="items"><a href="#profil"> À propos</a></li>
-                <li className="items"><a href="#competance">Compétences</a></li>
-                <li className="items"><a href="#portfolio">Portfolio</a></li>
-                <li className="items"><a href="#contact">Contact</a></li>
+                <li className="items"><a href="competance">Compétences</a></li>
+                <li className="items"><a href="portfolio">Portfolio</a></li>
+                <li className="items"><a href="contact">Contact</a></li>
             </ul>
         {toggleMenu && ( //si toggleMenu true envoi liste si false rien de tout
             <ul className=" liste-responsive">
