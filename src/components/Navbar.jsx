@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/navbar.css'
 
 function Navbar() {
@@ -25,25 +26,24 @@ function Navbar() {
   return (
     <nav className='nav-responsive'>
             <ul className="liste">
-                {/* <li className="items"><Link to = '/'>Accueil</Link> </li> */}
-                <li className="items" ><a href="#home" >Accueil</a> </li>
-                <li className="items"><a href="#profil"> À propos</a></li>
-                <li className="items"><a href="competance">Compétences</a></li>
-                <li className="items"><a href="portfolio">Portfolio</a></li>
-                <li className="items"><a href="contact">Contact</a></li>
+                <Link to = '/Portfolio'><li className="items">Accueil </li></Link>
+                <Link to = '/Portfolio/profil'><li className="items">À propos </li></Link>
+                <Link to = '/Portfolio/competance'><li className="items">Compétences </li></Link>
+                <Link to = '/Portfolio/portfolio'><li className="items">Portfolio </li></Link>
+                <Link to = '/Portfolio/contact'><li className="items">Contact </li></Link>
             </ul>
         {toggleMenu && ( //si toggleMenu true envoi liste si false rien de tout
             <ul className=" liste-responsive">
-                <div onClick={toggleNavSmallScreen}className="items"><a href="#home">Accueil</a></div>
-                <div onClick={toggleNavSmallScreen} className="items"><a href="#profil"> À propos</a></div>
-                <div onClick={toggleNavSmallScreen} className="items"><a href="#competance">Compétences</a></div>
-                <div onClick={toggleNavSmallScreen} className="items"><a href="#portfolio">Portfolio</a></div>
-                <div onClick={toggleNavSmallScreen} className="items"><a href="#contact">Contact</a></div>
+                <Link to = '/Portfolio' className="link-items"><li onClick={toggleNavSmallScreen} className="items" >Accueil </li></Link>
+                <Link to = '/Portfolio/profil' className="link-items"><li onClick={toggleNavSmallScreen} className="items">À propos </li></Link>
+                <Link to = '/Portfolio/competance' className="link-items"><li onClick={toggleNavSmallScreen} className="items">Compétences </li></Link>
+                <Link to = '/Portfolio/portfolio' className="link-items"><li onClick={toggleNavSmallScreen} className="items">Portfolio </li></Link>
+                <Link to = '/Portfolio/contact' className="link-items"><li onClick={toggleNavSmallScreen} className="items">Contact </li></Link>
             </ul>
             
         )}
       
-      <div onClick={toggleNavSmallScreen} className="btn"><i class="fa-solid fa-bars"></i></div>
+      <div onClick={toggleNavSmallScreen} ><i class="fa-solid fa-bars btn"></i></div>
     </nav>
   )
 }

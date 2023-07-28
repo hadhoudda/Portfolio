@@ -1,12 +1,13 @@
 .section-home{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     text-align: center;
     padding-top: 150px;
 }
 
-h1{
+h1{ 
+    color:white;
     font-size: 56px;
     font-weight: 600;
     margin: 30px;
@@ -34,9 +35,9 @@ h1{
 /* RESPONSIVE CSS */
 
 @media screen and (max-width: 920px) {
-    .section-home{
+    /* .section-home{
         padding-top: 250px;
-    }
+    } */
     h1{
         margin: 30px;
         font-size: 36px;

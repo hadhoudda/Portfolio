@@ -1,7 +1,3 @@
-*{
-    color: white;
-}
-
 nav{
    
     font-size: 22px;
@@ -21,6 +17,7 @@ nav{
 }
 
 .items {
+    color: white;
     margin-right: 10px;
     cursor: pointer;
 }
@@ -30,6 +27,7 @@ nav{
 } 
 
 .btn {
+    color: white;
     display: none;
 }
 
@@ -66,12 +64,16 @@ nav{
     .liste-responsive .items a:hover{
         scale: 1.05;
     }
+    .link-items{
+        width: 80%;
+        padding-bottom: 15px;
+    }
     .items {
+        font: inherit;
         font-size: 22px;
         text-align: center;
         padding-bottom: 5px;
         height: 40px;
-        width: 80%;
         line-height: 50px;
         border-bottom: 1px solid rgba(255,255,255,0.2);
 
