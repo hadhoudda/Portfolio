@@ -1,10 +1,12 @@
 import "../styles/footer.css";
-//import React from "react";
-//import { NavLink, Link } from "react-router-dom";
 
 function Footer() {
     return (
-        <div> Footer</div>
+        <footer>
+            <p className="text-footer">
+                © Copyright 2023 - Houda BEN ABDALLAH || Tous droits réservés. 
+            </p>
+        </footer>
     )
 }
 

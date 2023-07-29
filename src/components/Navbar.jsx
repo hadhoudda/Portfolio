@@ -43,7 +43,7 @@ function Navbar() {
             
         )}
       
-      <div onClick={toggleNavSmallScreen} ><i class="fa-solid fa-bars btn"></i></div>
+      <div onClick={toggleNavSmallScreen} ><i className="fa-solid fa-bars btn"></i></div>
     </nav>
   )
 }

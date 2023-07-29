@@ -1,6 +1,9 @@
-.home {
+.container-home {
       height: 100vh;
       background-image:url(../assets/font-ecran.webp) ;
       background-size: cover;
       background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 }
