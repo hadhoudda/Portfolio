@@ -12,9 +12,9 @@ function Competance() {
             <section className="container-skill">
             {skills &&
                 skills.length > 0 &&
-                skills.map((competance) => 
-                    <Skill content={competance} key={competance?.id} />
-                )}
+                skills.map((competance) => {
+                    return (<Skill content={competance} key={competance?.id} />);
+            })}
             </section>
             <Footer />
         </section>
