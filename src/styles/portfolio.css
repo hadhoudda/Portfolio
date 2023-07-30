@@ -1,15 +1,12 @@
-.competance{
+.container-portfolio {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: rgb(4, 4, 64);
     height: 100vh;
 }
-p{    
-    color: rgb(233, 221, 221);
-}
 
-.container-skills{
-    padding: 60px;
-    z-index: 1;
+.portfolio{
+    color: white;
+    z-index: 2;
 }

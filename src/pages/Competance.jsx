@@ -9,10 +9,10 @@ function Competance() {
     return (
         <section className='competance'> 
             <Header />
-            {skills.map((competance , index) => {
+            {skills.map(competance => {
                 return (
                     <section className="container-skills">
-                        <Skill skill={competance?.skill}  porcent={competance?.porcent} key={index}/>
+                        <Skill skill={competance?.skill}  porcent={competance?.porcent} key={competance?.id}/>
                     </section>
                     );
                 })}

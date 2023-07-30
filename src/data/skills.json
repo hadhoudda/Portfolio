@@ -1,27 +1,27 @@
 [
     {
-        "id":1,
+        "id":0,
         "skill":"HTML",
         "porcent":85
     },
     {
-        "id":2,
+        "id":1,
         "skill":"CSS",
         "porcent":85
     },
     {
         
-        "id":3,
+        "id":2,
         "skill":"Javascript",
         "porcent":70
     },
     {
-        "id":4,
+        "id":3,
         "skill":"React JS",
         "porcent":70
     },
     {
-        "id":5,
+        "id":4,
         "skill":"Node.Js",
         "porcent":55
     }
