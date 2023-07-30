@@ -9,13 +9,13 @@ function Competance() {
     return (
         <section className='competance'> 
             <Header />
-            {skills.map(competance => {
-                return (
-                    <section className="container-skills">
-                        <Skill skill={competance?.skill}  porcent={competance?.porcent} key={competance?.id}/>
-                    </section>
-                    );
-                })}
+            <section className="container-skill">
+            {skills &&
+                skills.length > 0 &&
+                skills.map((competance) => 
+                    <Skill content={competance} key={competance?.id} />
+                )}
+            </section>
             <Footer />
         </section>
     )
