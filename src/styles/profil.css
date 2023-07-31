@@ -6,8 +6,9 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
-
+ .profil{
+    padding-top: 50px;
+ }
 
 h2{
     color: black;
@@ -19,17 +20,22 @@ h2{
 .contenu-profil p{
     color: black;
     padding-top: 30px;
+    display: block;
+    font-size: 20px;
+    width: 65%;
+    text-align: justify;
 }
 .contenu-profil{
     display: flex;
     gap: 50px;
-
+    background-color: rgb(239, 242, 235);
     margin: 100px 100px 0 100px;
 }
 
 .photo-profil {
-    width: 40%;
+    width: 30%;
     height: auto;
+    object-fit:cover;
 }
 .profil .liste,
 .profil .liste-responsive   {
@@ -41,7 +47,8 @@ h2{
 }
 
 /* RESPONSIVE CSS */
-@media screen and (max-width: 992px) {
+
+@media screen and (max-width: 1024px) {
     .contenu-profil{
         margin: 0;
         padding: 50px 20px 0px 20px ;
@@ -49,13 +56,16 @@ h2{
     }
    
     .profil{
-        padding: 10px;
+        padding-top: 100px;
     }
 
 }
 
 /* RESPONSIVE CSS */
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 720px) {
+    .container-profil{
+        height: auto;
+    }
     .photo-profil,
     .contenu-profil p{
         color: black;
@@ -72,5 +82,9 @@ h2{
 
     h2{
         font-size: 34px;
+    }
+    .profil{
+        padding-top: 0px;
+        padding-bottom: 50px;
     }
 }
