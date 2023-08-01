@@ -37,7 +37,6 @@ function Competance() {
                     <i className='bx bxl-nodejs style-icone-skill icone-node'></i>
                     <i className='bx bxl-visual-studio style-icone-skill icone-vscode'></i>
                     <i className='bx bxl-github style-icone-skill icone-github'></i>
-
                     <i className='bx bxl-mongodb style-icone-skill icone-mongodb' ></i>
                     <i className='bx bxl-figma style-icone-skill icone-figma'></i>
                     <i className='bx bxl-trello style-icone-skill icone-trello' ></i>

@@ -1,9 +1,9 @@
 .container-contact {
+    background-color: rgb(4, 4, 64);
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(4, 4, 64);
-    height: 100vh;
 }
 
 .contact {
