@@ -31,34 +31,143 @@
 }
 .HTML{
     width: 85%;
+    animation: html 3s;
 }
 .CSS{
     width: 85%;
+    animation: CSS 3s;
 }
 .Javascript{
     width: 70%;
+    animation: Javascript 3s;
 }
 .React{
     width: 70%;
+    animation: React 3s;
 }
 .Node {
-    width: 55%;
+    width: 65%;
+    animation: Node 3s;
 }
 .VS{
     width: 92%;
+    animation: VS 3s;
 }
 .Github{
     width: 85%;
+    animation: Github 3s;
 }
 .Postman {
     width: 65%;
+    animation: Postman 3s;
 }
 .MongoDB {
     width: 60%;
+    animation: MongoDB 3s;
 }
 .Figma {
     width: 75%;
+    animation: Figma 3s;
 }
 .Trello{
     width: 85%;
+    animation: Trello 3s;
+}
+
+/* RESPONSIVE CSS */
+@media screen and (max-width: 680px) {
+
+
+}
+
+/* Animation */
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes CSS {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes Javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:70%;
+    }
+}
+@keyframes Node{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes React {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes VS {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 92%;
+    }
+}
+@keyframes Github{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:85%;
+    }
+}
+@keyframes Postman{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes  MongoDB{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes Figma{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:75%;
+    }
+}
+@keyframes Trello{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
 }

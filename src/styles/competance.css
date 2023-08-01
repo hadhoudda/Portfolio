@@ -39,11 +39,16 @@ h3{
 }
 .icone-skills{
     display: flex;
+    gap: 1%;
     justify-content: center;
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 .style-icone-skill{
     font-size: 400%;
+}
+.style-icone-skill:hover{
+    scale: 1.35;
 }
 .icone-html{
     color: rgb(129, 46, 4);
@@ -75,4 +80,30 @@ h3{
 .icone-github{
     background-color: white;
     border-radius: 50%;
+}
+
+/* RESPONSIVE CSS */
+@media screen and (max-width: 680px) {
+    .competance{
+        height: auto;
+    }
+    .content{
+        border: none;
+        width: 80%;
+        height: 300px;
+        gap: 10px;
+        padding:0px 50px 50px 50px;
+    }
+    .container-skills-tools{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .style-icone-skill{
+        font-size: 200%;
+        flex-wrap: wrap;
+    }
+    .style-icone-skill:hover{
+        scale: 1.15;
+    }
 }
