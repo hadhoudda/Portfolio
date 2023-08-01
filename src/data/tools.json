@@ -1,0 +1,32 @@
+[
+    {
+        "id" : "t1",
+        "tool": "VS Code",
+        "porcent":"92"
+    },
+    {
+        "id" : "t2",
+        "tool": "Github",
+        "porcent":"85"
+    },
+    {
+        "id" : "t3",
+        "tool": "Postman",
+        "porcent":"65"
+    },
+    {
+        "id" : "t4",
+        "tool": "MongoDB",
+        "porcent":"60"
+    },
+    {
+        "id" : "t5",
+        "tool": "Figma",
+        "porcent":"75"
+    },
+    {
+        "id" : "t6",
+        "tool": "Trello",
+        "porcent":"85"
+    }
+]

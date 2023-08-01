@@ -1,12 +1,14 @@
 import React from 'react'
 import '../styles/skill.css'
 
-export default function Skill({content}) {
-    const {skill, porcent} = content;
+export default function Skill({skill, porcent}) {
     return (
-    <div className='skill'>
-        <p>{skill} </p>
+    <div className='skill' >
+      <div className="info">
+        <p className='text-skill'>{skill} </p>
         <p className="porcent">{porcent}%</p>
+      </div>
+        <div className="bar"><span className={`${skill}`}></span></div>
     </div>
   )
 }

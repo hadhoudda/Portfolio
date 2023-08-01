@@ -1,14 +1,78 @@
 .competance{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     background-color: rgb(4, 4, 64);
     height: 100vh;
 }
-p{    
+p,
+h3{    
     color: rgb(233, 221, 221);
 }
-
-.container-skill{
-    padding: 60px;
+h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.container-competance{
+    width: 100%;
+}
+.container-skills-tools{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 120px;
+    gap: 10%;
+}
+.content{
+    height: 300px;
+    display: flex;
+    width: 30%;
+    height: 50vh;
+    flex-direction: column;
+    gap:5%;
+    border-radius: 25px;
+    border:solid #0ef 5px;
+    padding:10px 50px 50px 50px ;
+}
+.icone-skills{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+.style-icone-skill{
+    font-size: 400%;
+}
+.icone-html{
+    color: rgb(129, 46, 4);
+}
+.icone-css{
+    color:#dfdc0b;
+}
+.icone-javascript{
+    color:#dfdc0b;
+}
+.icone-react{
+    color: #305b8e;
+}
+.icone-node{
+    color: rgb(6, 125, 55);
+}
+.icone-mongodb{
+    color: rgb(6, 125, 55);
+}
+.icone-figma{
+    color: #e54e0d;
+}
+.icone-vscode{
+    color: #305b8e;
+}
+.icone-trello{
+    color: #11488b;
+}
+.icone-github{
+    background-color: white;
+    border-radius: 50%;
 }
