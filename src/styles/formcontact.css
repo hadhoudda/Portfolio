@@ -119,6 +119,7 @@ form textarea{
         width: 70%;
         border-radius: 5%;
         padding-bottom: 0;
+        margin-bottom: 15px;
     }
     
     .title-contact{
