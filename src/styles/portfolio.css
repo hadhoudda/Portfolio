@@ -3,10 +3,25 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: rgb(4, 4, 64);
-    height: 100vh;
+    /* height: 100vh; */
+}
+.title-portfolio{
+    font-size: 36px;
+     padding: 150px 0 50px 0;
+}
+.content-portfolio{
+    width: 80%;
+	display: grid;
+    align-self: center;
+    grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 40px;
+	grid-row-gap: 50px;
 }
 
 .portfolio{
     color: white;
     z-index: 2;
+}
+.card-project-p:hover{
+    display: none;
 }

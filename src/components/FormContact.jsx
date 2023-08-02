@@ -1,4 +1,5 @@
 import React, { useRef} from 'react';
+import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 //require('dotenv').config();
 import '../styles/formcontact.css'
@@ -45,7 +46,7 @@ function FormContact() {
                 </form>
                 <div className="info-contact">
                     <p className="text-info-contact">Vous pouvez me contacter directement par téléphone :</p>
-                    <a  className="icone-form" href="tel:0587878787"><i class='bx bxs-phone'></i></a>
+                    <Link className="icone-form" to="tel:0587878787"><i class='bx bxs-phone'></i></Link>
                 </div>
             </div>
         </div>

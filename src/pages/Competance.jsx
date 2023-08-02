@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/competance.css';
 import skills from "../data/skills.json";
-import tools from '../data/tools.json'
+import tools from '../data/tools.json';
 import Skill from '../components/Skill';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
