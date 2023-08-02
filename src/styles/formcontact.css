@@ -5,10 +5,10 @@
     border-radius: 10%;
     display: flex;
     justify-content: center;
-    gap: 20%;
+    gap: 10%;
 }
 .form-contact{
-    
+    padding-left: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,11 +40,12 @@ form textarea{
 .info-contact i{
     color: white;
     font-size: 150%;
-    padding: 2%;
-   
 }
 .info-contact{
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .text-info-contact{
     padding-bottom: 5px;
@@ -69,8 +70,10 @@ form textarea{
 }
 
 .icone-form{
-    display: flex;
-    justify-content: center;
+    background-color: forestgreen;
+    border-radius: 50%;
+    padding: 10px;
+    
 }
 
 
@@ -81,6 +84,9 @@ form textarea{
         gap: 5%;
     }
     
+    .form-contact{
+        padding-left: 0;
+    }
     form input{
         height: 30px;
         width: 200px;

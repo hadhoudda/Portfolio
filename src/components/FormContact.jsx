@@ -44,13 +44,8 @@ function FormContact() {
                     <p className="text-form">* Champ obligatoire</p>
                 </form>
                 <div className="info-contact">
-                    <p className="text-info-contact">Contact direct :</p>
-                    <div className="icone-form">
-                        <a href="https://wa.me/+33622464454"><i className='bx bxl-whatsapp'></i></a>
-                        <a href="mailto:ahhouda@yahoo.fr"><i className='bx bx-mail-send'></i></a>
-                        <a href="tel:0587878787"><i class='bx bxs-phone'></i></a>
-                    </div>
-                    
+                    <p className="text-info-contact">Vous pouvez me contacter directement par téléphone :</p>
+                    <a  className="icone-form" href="tel:0587878787"><i class='bx bxs-phone'></i></a>
                 </div>
             </div>
         </div>
