@@ -73,7 +73,10 @@
     width: 85%;
     animation: Trello 3s;
 }
-
+.Java{
+    width: 20%;
+    animation: Java 3s;
+}
 /* RESPONSIVE CSS */
 @media screen and (max-width: 680px) {
 
@@ -169,5 +172,13 @@
     }
     100%{
         width: 85%;
+    }
+}
+@keyframes Java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
     }
 }
