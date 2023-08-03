@@ -49,6 +49,7 @@ form textarea{
 }
 .text-info-contact{
     padding-bottom: 5px;
+    text-align: center;
 }
 .btn-message{
     display: inline-block;

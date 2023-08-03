@@ -1,6 +1,6 @@
 .project{
-    background-color: rgb(113, 114, 116);
-    height :250px;
+    background-color: rgb(24, 33, 52);
+    height :300px;
     border-radius:20px;
     border: rgb(67, 67, 67) solid;
 }
@@ -30,7 +30,7 @@
 .btn-project{
     margin: 10px;
     padding: 10px 18px ;
-    background:  rgb(4, 83, 89);
+    background:  rgb(67, 67, 67);
     border-radius: 40px;
     font-size: 15px;
     color: white;
