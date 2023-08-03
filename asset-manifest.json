@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6f930fef.css",
-    "main.js": "/Portfolio/static/js/main.029da6ff.js",
+    "main.css": "/Portfolio/static/css/main.84206d50.css",
+    "main.js": "/Portfolio/static/js/main.bb1f1f37.js",
     "static/js/787.cda612ba.chunk.js": "/Portfolio/static/js/787.cda612ba.chunk.js",
-    "static/media/mer.webp": "/Portfolio/static/media/mer.bbf970d032d107bc8bd9.webp",
-    "static/media/ciel.webp": "/Portfolio/static/media/ciel.bdb0c5c626914341caff.webp",
-    "static/media/font-ecran.webp": "/Portfolio/static/media/font-ecran.28a464e0049870b38904.webp",
+    "static/media/mer.webp": "/Portfolio/static/media/mer.6e9e4f03a6c5de1f5a9f.webp",
+    "static/media/ciel.webp": "/Portfolio/static/media/ciel.b497c22db1969e1b2bae.webp",
+    "static/media/font-portfolio.webp": "/Portfolio/static/media/font-portfolio.38959b48a4740d76f732.webp",
     "static/media/houda.png": "/Portfolio/static/media/houda.e01539937e505ab3f9ec.png",
+    "static/media/font-ecran.webp": "/Portfolio/static/media/font-ecran.eccf7cbdc537d38a6f8a.webp",
     "static/media/profil.webp": "/Portfolio/static/media/profil.00589c80efe204216997.webp",
     "index.html": "/Portfolio/index.html",
-    "main.6f930fef.css.map": "/Portfolio/static/css/main.6f930fef.css.map",
-    "main.029da6ff.js.map": "/Portfolio/static/js/main.029da6ff.js.map",
+    "main.84206d50.css.map": "/Portfolio/static/css/main.84206d50.css.map",
+    "main.bb1f1f37.js.map": "/Portfolio/static/js/main.bb1f1f37.js.map",
     "787.cda612ba.chunk.js.map": "/Portfolio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f930fef.css",
-    "static/js/main.029da6ff.js"
+    "static/css/main.84206d50.css",
+    "static/js/main.bb1f1f37.js"
   ]
 }
