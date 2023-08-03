@@ -1,8 +1,11 @@
-.project{
+.card-project,
+.description-project{
     background-color: rgb(24, 33, 52);
     height :300px;
     border-radius:20px;
-    border: rgb(67, 67, 67) solid;
+    /* border: rgb(67, 67, 67) solid; */
+    box-shadow: 0 0 5px #0ef;
+    animation: projectRight 1s ease ;
 }
 
 .img-project{
@@ -12,15 +15,20 @@
     border-radius:20px 20px 0 0;
 }
 
-.title-card{
+.title-card,
+.title-description{
     color: white;
     font-size: 24px;
     font-weight: 600;
     padding-left: 15px;
+    padding-bottom: 20px;
 }
-
-.img-project:hover{
-    scale: 1.01;
+.text-project{
+    padding: 20px;
+}
+.title-description{
+    text-align: center;
+    margin: 20px;
 }
 
 .btn-project i {
@@ -28,7 +36,7 @@
 }
 
 .btn-project{
-    margin: 10px;
+    margin-left: 5px;
     padding: 10px 18px ;
     background:  rgb(67, 67, 67);
     border-radius: 40px;
@@ -42,13 +50,13 @@
     box-shadow: 0 0 5px rgb(69, 77, 77),
     0 0 10px rgb(69, 77, 77);
 }
+
 .description-project{
     display: none;
 }
 
-
 /* RESPONSIVE CSS */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1100px) {
     .btn-project{
         margin-top: 10px;
         padding: 10px 10px ;
@@ -59,4 +67,17 @@
 /* RESPONSIVE CSS */
 @media screen and (max-width: 680px) {
    
+}
+
+/* KEYFRAMES ANIMATION */
+
+@keyframes projectRight {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }

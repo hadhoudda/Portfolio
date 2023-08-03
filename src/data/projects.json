@@ -4,6 +4,7 @@
         "title" : "Booki",
         "description" : "aaaaaaaaaaaaaaa",
         "picture" : "images/booki.webp",
+        "tags" : ["HTML", "CSS"],
         "github" : "https://github.com/hadhoudda/Booki",
         "site" : "https://hadhoudda.github.io/Booki/"
     },
@@ -12,6 +13,7 @@
         "title" : "Kasa",
         "description" : "aaaaaaaaaaaaaaa",
         "picture" : "images/kasa.webp",
+        "tags" : ["React", "CSS"],
         "github" : "https://github.com/hadhoudda/Application-kasa-React.git",
         "site" : "https://hadhoudda.github.io/Application-kasa-React/"
     },
@@ -19,6 +21,7 @@
         "id":"p3",
         "title" : "SEO",
         "description" : "aaaaaaaaaaaaaaa",
+        "tags" : ["HTML", "CSS"],
         "picture" : "images/nina.webp",
         "github" : "https://github.com/hadhoudda/site-photographe-Nina.git",
         "site" : "https://hadhoudda.github.io/site-photographe-Nina/"
@@ -28,6 +31,7 @@
         "title" : "Mon Vieux Grimoir",
         "description" : "aaaaaaaaaaaaaaa",
         "picture" : "images/grimoir.webp",
+        "tags" : ["HTML", "CSS"],
         "github" : "https://github.com/hadhoudda/Mon-Vieux-Grimoire.git",
         "site" : "https://hadhoudda.github.io/Mon-Vieux-Grimoire/"
     },
@@ -36,6 +40,7 @@
         "title" : "Mon Portfolio",
         "description" : "aaaaaaaaaaaaaaa",
         "picture" : "images/portfolio.webp",
+        "tags" : ["HTML", "CSS"],
         "github" : "https://github.com/hadhoudda/Portfolio.git",
         "site" : " https://hadhoudda.github.io/Portfolio/"
     }

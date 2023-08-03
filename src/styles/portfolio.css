@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: space-between;
     background-image:url(../assets/font-portfolio.webp) ;
-      background-size: cover;
-      background-position: center;
+    background-size: cover;
+    background-position: center;
 }
 .title-portfolio{
     font-size: 36px;
@@ -17,6 +17,7 @@
     grid-template-columns: repeat(3, 1fr);
 	grid-column-gap: 40px;
 	grid-row-gap: 50px;
+    padding-bottom: 30px;
 }
 
 .portfolio{
