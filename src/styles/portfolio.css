@@ -2,15 +2,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(55, 55, 61);
-    /* height: 100vh; */
+    background-image:url(../assets/font-portfolio.webp) ;
+      background-size: cover;
+      background-position: center;
 }
 .title-portfolio{
     font-size: 36px;
     padding: 100px 0 50px 0;
 }
 .content-portfolio{
-    width: 80%;
+    width: 85%;
 	display: grid;
     align-self: center;
     grid-template-columns: repeat(3, 1fr);
@@ -24,4 +25,21 @@
 }
 .card-project-p:hover{
     display: none;
+}
+
+
+/* RESPONSIVE CSS */
+@media screen and (max-width: 1024px) {
+    .content-portfolio{
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+    }
+}
+
+/* RESPONSIVE CSS */
+@media screen and (max-width: 680px) {
+    .content-portfolio{
+        grid-template-columns: repeat(1, 1fr);
+    }
+   
 }

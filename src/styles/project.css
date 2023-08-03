@@ -1,8 +1,8 @@
 .project{
-    background-color: rgb(181, 172, 172);
+    background-color: rgb(113, 114, 116);
     height :250px;
     border-radius:20px;
-    border: rgb(75, 71, 71) solid;
+    border: rgb(67, 67, 67) solid;
 }
 
 .img-project{
@@ -37,6 +37,26 @@
     font-weight: 500;
     cursor: pointer;
 }
+
+.btn-project:hover{
+    box-shadow: 0 0 5px rgb(69, 77, 77),
+    0 0 10px rgb(69, 77, 77);
+}
 .description-project{
     display: none;
+}
+
+
+/* RESPONSIVE CSS */
+@media screen and (max-width: 1024px) {
+    .btn-project{
+        margin-top: 10px;
+        padding: 10px 10px ;
+        font-size: 12px;
+    }
+}
+
+/* RESPONSIVE CSS */
+@media screen and (max-width: 680px) {
+   
 }

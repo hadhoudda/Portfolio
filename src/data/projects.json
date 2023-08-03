@@ -5,7 +5,7 @@
         "description" : "aaaaaaaaaaaaaaa",
         "picture" : "images/booki.webp",
         "github" : "https://github.com/hadhoudda/Booki",
-        "site " : "https://hadhoudda.github.io/Booki/"
+        "site" : "https://hadhoudda.github.io/Booki/"
     },
     {
         "id":"p2",
@@ -13,7 +13,7 @@
         "description" : "aaaaaaaaaaaaaaa",
         "picture" : "images/kasa.webp",
         "github" : "https://github.com/hadhoudda/Application-kasa-React.git",
-        "site " : "https://hadhoudda.github.io/Application-kasa-React/"
+        "site" : "https://hadhoudda.github.io/Application-kasa-React/"
     },
     {
         "id":"p3",
@@ -21,7 +21,7 @@
         "description" : "aaaaaaaaaaaaaaa",
         "picture" : "images/nina.webp",
         "github" : "https://github.com/hadhoudda/site-photographe-Nina.git",
-        "site " : "https://hadhoudda.github.io/site-photographe-Nina/"
+        "site" : "https://hadhoudda.github.io/site-photographe-Nina/"
     },
     {
         "id":"p4",
@@ -29,7 +29,7 @@
         "description" : "aaaaaaaaaaaaaaa",
         "picture" : "images/grimoir.webp",
         "github" : "https://github.com/hadhoudda/Mon-Vieux-Grimoire.git",
-        "site " : "https://hadhoudda.github.io/Mon-Vieux-Grimoire/"
+        "site" : "https://hadhoudda.github.io/Mon-Vieux-Grimoire/"
     },
     {
         "id":"p5",
@@ -37,7 +37,7 @@
         "description" : "aaaaaaaaaaaaaaa",
         "picture" : "images/portfolio.webp",
         "github" : "https://github.com/hadhoudda/Portfolio.git",
-        "site " : " https://hadhoudda.github.io/Portfolio/"
+        "site" : " https://hadhoudda.github.io/Portfolio/"
     }
 
 ]
