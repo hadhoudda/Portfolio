@@ -46,7 +46,7 @@ function FormContact() {
                 </form>
                 <div className="info-contact">
                     <p className="text-info-contact">Vous pouvez me contacter directement par téléphone :</p>
-                    <Link className="icone-form" to="tel:0587878787"><i class='bx bxs-phone'></i></Link>
+                    <Link className="icone-form" to="tel:+33622464454"><i class='bx bxs-phone'></i></Link>
                 </div>
             </div>
         </div>
