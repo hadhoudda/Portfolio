@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.84206d50.css",
-    "main.js": "/Portfolio/static/js/main.9690a441.js",
+    "main.css": "/Portfolio/static/css/main.59f41995.css",
+    "main.js": "/Portfolio/static/js/main.01d92911.js",
     "static/js/787.cda612ba.chunk.js": "/Portfolio/static/js/787.cda612ba.chunk.js",
-    "static/media/mer.webp": "/Portfolio/static/media/mer.6e9e4f03a6c5de1f5a9f.webp",
-    "static/media/ciel.webp": "/Portfolio/static/media/ciel.b497c22db1969e1b2bae.webp",
-    "static/media/font-portfolio.webp": "/Portfolio/static/media/font-portfolio.38959b48a4740d76f732.webp",
-    "static/media/houda.png": "/Portfolio/static/media/houda.e01539937e505ab3f9ec.png",
-    "static/media/font-ecran.webp": "/Portfolio/static/media/font-ecran.eccf7cbdc537d38a6f8a.webp",
-    "static/media/profil.webp": "/Portfolio/static/media/profil.00589c80efe204216997.webp",
+    "static/media/mer.webp": "/Portfolio/static/media/mer.68f6cc5f2bd624a56e2f.webp",
+    "static/media/ciel.webp": "/Portfolio/static/media/ciel.86ef884296e583bc1537.webp",
+    "static/media/font-ecran.webp": "/Portfolio/static/media/font-ecran.01b8f27e1ed9e294ca36.webp",
+    "static/media/houda.png": "/Portfolio/static/media/houda.bcd60a9fc236580b42d3.png",
+    "static/media/profil.webp": "/Portfolio/static/media/profil.f301d911d6d851aa99b8.webp",
+    "static/media/font-portfolio.webp": "/Portfolio/static/media/font-portfolio.2c761eb2275347e254a3.webp",
     "index.html": "/Portfolio/index.html",
-    "main.84206d50.css.map": "/Portfolio/static/css/main.84206d50.css.map",
-    "main.9690a441.js.map": "/Portfolio/static/js/main.9690a441.js.map",
+    "main.59f41995.css.map": "/Portfolio/static/css/main.59f41995.css.map",
+    "main.01d92911.js.map": "/Portfolio/static/js/main.01d92911.js.map",
     "787.cda612ba.chunk.js.map": "/Portfolio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84206d50.css",
-    "static/js/main.9690a441.js"
+    "static/css/main.59f41995.css",
+    "static/js/main.01d92911.js"
   ]
 }
