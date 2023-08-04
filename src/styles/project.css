@@ -1,27 +1,25 @@
 .card-project,
 .description-project{
-    background-color: rgb(24, 33, 52);
+    background-color: rgb(38, 47, 65);
     height :300px;
     border-radius:20px;
-    /* border: rgb(67, 67, 67) solid; */
     box-shadow: 0 0 5px #0ef;
     animation: projectRight 1s ease ;
 }
 
 .img-project{
     width: 100%;
-    height: 60%;
-    object-fit: cover;
+    height: 70%;
+    object-fit: fill;
     border-radius:20px 20px 0 0;
 }
 
 .title-card,
 .title-description{
     color: white;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 600;
     padding-left: 15px;
-    padding-bottom: 20px;
 }
 .text-project{
     padding: 20px;
@@ -30,45 +28,41 @@
     text-align: center;
     margin: 20px;
 }
-
+.content-btn{
+ display: flex;
+ justify-content: end;
+ margin-right: 10px;
+}
 .btn-project i {
     color: white;
 }
 
 .btn-project{
     margin-left: 5px;
-    padding: 10px 18px ;
-    background:  rgb(67, 67, 67);
+    padding: 5px 8px ;
+    background:  rgb(77, 88, 93);
     border-radius: 40px;
-    font-size: 15px;
+    font-size: 11px;
     color: white;
     font-weight: 500;
     cursor: pointer;
 }
 
 .btn-project:hover{
-    box-shadow: 0 0 5px rgb(69, 77, 77),
-    0 0 10px rgb(69, 77, 77);
-}
-
-.description-project{
-    display: none;
+    box-shadow: 0 0 5px rgb(99, 113, 119),
+    0 0 10px rgb(99, 113, 119),0 0 5px rgb(99, 113, 119);
 }
 
 /* RESPONSIVE CSS */
-@media screen and (max-width: 1100px) {
-    .btn-project{
-        margin-top: 10px;
-        padding: 10px 10px ;
-        font-size: 12px;
+@media screen and (max-width: 1200px) {
+    
+    .title-card,
+    .title-description{
+        font-size: 32px;
+        font-weight: 500;
+        padding-left: 15px;
     }
 }
-
-/* RESPONSIVE CSS */
-@media screen and (max-width: 680px) {
-   
-}
-
 /* KEYFRAMES ANIMATION */
 
 @keyframes projectRight {

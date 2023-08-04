@@ -1,8 +1,9 @@
 import React, { useRef} from 'react';
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
+import '../styles/formcontact.css';
 //require('dotenv').config();
-import '../styles/formcontact.css'
+
 
 function FormContact() {
     const form = useRef()
@@ -10,7 +11,7 @@ function FormContact() {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        //emailjs.sendForm(process.env.YOUR_SERVICE_ID, process.env.YOUR_TEMPLATE_ID , form.current, process.env.YOUR_PUBLIC_KEY)
+        //emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID , form.current, process.env.REACT_APP_YOUR_PUBLIC_KEY)
         emailjs.sendForm('service_xbw7xvx', 'template_x1ohdje', form.current, 'X1Cf5ovioyGwNMk3Y')
           .then((result) => {
               console.log(result.text);
@@ -46,7 +47,7 @@ function FormContact() {
                 </form>
                 <div className="info-contact">
                     <p className="text-info-contact">Vous pouvez me contacter directement par téléphone :</p>
-                    <Link className="icone-form" to="tel:+33622464454"><i class='bx bxs-phone'></i></Link>
+                    <Link className="icone-form" to="tel:+33622464454"><i className='bx bxs-phone'></i></Link>
                 </div>
             </div>
         </div>

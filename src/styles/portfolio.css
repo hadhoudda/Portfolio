@@ -30,15 +30,23 @@
 
 
 /* RESPONSIVE CSS */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .content-portfolio{
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 30px;
     }
+    .title-card,
+    .title-description{
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+        padding-left: 15px;
+        scale: 1.01s;
+    }
 }
 
 /* RESPONSIVE CSS */
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 780px) {
     .content-portfolio{
         grid-template-columns: repeat(1, 1fr);
     }
