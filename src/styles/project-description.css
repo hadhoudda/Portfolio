@@ -1,0 +1,23 @@
+.card-details{
+    background-color: rgb(72, 72, 73);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.content-details{
+    background-color: rgb(113, 113, 113);
+    border-radius: 5%;
+    border: 5px solid white;
+    box-shadow: 0 0 5px rgb(228, 237, 237),
+    0 0 10px rgb(228, 237, 237),
+    0 0 15px rgb(228, 237, 237);
+    padding: 20px;
+    margin: 150px 0 50px 0;
+
+    width: 50%;
+    height: 400px;
+}

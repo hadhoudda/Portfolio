@@ -18,7 +18,7 @@ function Profil() {
                         curieuse, autonome et ayant l'esprit d’équipe..<br></br>
                         Ayant toujours été passionnée par l'informatique, j'ai décidé de me lancer dans 
                         cette formation afin de me spécialiser dans le développement web, et de pouvoir exercer un métier qui me passionne.<br></br>
-                        N'hésitez pas à me contacter pour savoir plus sur mon parcours et mes projets.
+                        N'hésitez pas à me contacter pour on savoir plus sur mon parcours et mes projets.
                     </p>
 
                 </div>
