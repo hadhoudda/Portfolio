@@ -1,6 +1,6 @@
 .card-project,
 .description-project{
-    background-color: rgb(38, 47, 65);
+    background-color: rgb(235, 237, 242);
     height :300px;
     border-radius:20px;
     box-shadow: 0 0 5px #0ef;
@@ -14,9 +14,8 @@
     border-radius:20px 20px 0 0;
 }
 
-.title-card,
-.title-description{
-    color: white;
+.title-card{
+    color: rgb(77, 88, 93);
     font-size: 36px;
     font-weight: 600;
     padding-left: 15px;

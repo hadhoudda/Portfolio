@@ -19,7 +19,6 @@ export default function ProjectDescrption({project}) {
                 </button> 
             </Link>
             
-
       </div>
             
         </div>

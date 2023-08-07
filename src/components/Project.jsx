@@ -11,7 +11,7 @@ export default function Project({project}) {
                     
                     <Link to={project?.site} target="_blank">
                         <button className='btn-project'>
-                            Voir le site <i className='bx bx-chevron-right'></i>
+                            {project.titleLink} <i className='bx bx-chevron-right'></i>
                         </button> 
                     </Link>
                     <Link to ={`/portfolio/details/${project.id}`} >
