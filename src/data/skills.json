@@ -24,10 +24,5 @@
         "id":5,
         "skill":"Node Js",
         "porcent":65
-    },
-    {
-        "id":6,
-        "skill":"Java",
-        "porcent":20
     }
 ]

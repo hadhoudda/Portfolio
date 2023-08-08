@@ -1,5 +1,5 @@
 .content-form-contact{
-    background-color:rgba(11, 11, 12, 0.7) ;
+    background-color:rgba(11, 11, 12, 0.5) ;
     width: 40%;
     padding:40px 20px 20px 20px;
     border-radius: 10%;
@@ -28,6 +28,7 @@ form textarea{
     color: white;
     font-size: 56px;
     font-weight: 600;
+    margin-top: 100px;
 }
 .text-contact{
     font-size:22px ;
@@ -38,7 +39,11 @@ form textarea{
     flex-direction: column;
     align-items: center;
     height: 100%;
-    background-image:url(../assets/mer.webp) ;
+    background-image: linear-gradient(
+    to bottom,
+    rgba(12, 12, 12, 0.5),
+    rgba(119, 119, 123, 0.5)
+    ),url(../assets/font-contact.webp ) ;
     background-size: cover;
     background-position: center;
 }
@@ -88,6 +93,7 @@ form textarea{
 @media screen and (max-width: 1024px) {
     .content-form-contact{
         padding: 30px;
+        margin-top: 150px;
         gap: 5%;
     }
     
@@ -104,6 +110,7 @@ form textarea{
     }
     .title-contact{
         font-size: 36px;
+        margin-top: 50px;
     }
     .text-contact{
         font-size:16px ;
@@ -127,11 +134,13 @@ form textarea{
         border-radius: 5%;
         padding-bottom: 0;
         margin-bottom: 15px;
+        margin-top: 0;
     }
     
     .title-contact{
         font-size: 36px;
         padding-top: 70px;
+        margin-top: 0;
     }
     .text-contact{
         font-size:14px ;
