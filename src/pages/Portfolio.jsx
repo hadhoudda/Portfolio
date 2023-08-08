@@ -1,25 +1,26 @@
-import React, { useState, useEffect} from "react";
+import React from "react";
 import '../styles/portfolio.css';
+import data from '../data/data.json'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Project from '../components/Project';
 
 
 export default function Portfolio() {
-  const [data, setData] = useState([]);
-  const getData = async () => {
-      const response = await fetch("data.json", {
-          headers: {
-              "Content-Type": "application/json",
-              Accept: "application/json",
-          },
-      });
-      const cards = await response.json();
-      setData(cards);
-  };
-  useEffect(() => {
-      getData();
-  }, []);
+//   const [data, setData] = useState([]);
+//   const getData = async () => {
+//       const response = await fetch("data.json", {
+//           headers: {
+//               "Content-Type": "application/json",
+//               Accept: "application/json",
+//           },
+//       });
+//       const cards = await response.json();
+//       setData(cards);
+//   };
+//   useEffect(() => {
+//       getData();
+//   }, []);
   return (
     <div className="container-portfolio">
         <Header />
