@@ -11,7 +11,7 @@ const Details = () => {
   const [project, setProject] = useState([0]);
 
   const getData = async () => {
-      const response = await fetch("../data.json", {
+      const response = await fetch("https://github.com/hadhoudda/Portfolio/blob/main/public/data.json", {
           headers: {
               "Content-Type": "application/json",
               Accept: "application/json",
