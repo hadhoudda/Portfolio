@@ -7,7 +7,7 @@ function Description() {
     <section className='section-home'>
         <h1>HOUDA BEN ABDALLAH</h1>
         <p className="txt-home">
-            Développeuse Web React Js/ Node.Js
+        Développeuse web full-stack junior
         </p>
         <SocialMedia />
     </section>
