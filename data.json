@@ -1,0 +1,84 @@
+[
+    {
+        "id":"p1",
+        "title" : "Booki",
+        "description" : " Développer un site Internet de l’entreprise Booki qui permette aux usagers de trouver des hébergements et des     activités dans la ville de leur choix. Intégrer du contenu conformément à une maquette avec HTML et CSS, implémenter une interface responsive, installer un environnement de développement front-end.",
+        "picture" : "images/booki.webp",
+        "tags": [
+                    "HTML 5", 
+                    "CSS 3",
+                    "Figma"
+                ],
+        "titleLink" : "Voir le site",
+        "link" : "https://hadhoudda.github.io/Booki/"
+    },
+    {
+        "id":"p2",
+        "title" : "Sohie Bluel",
+        "description" : "Créez une page web dynamique avec JavaScript. Manipuler les éléments du DOM, récupérer les données utilisateurs via des formulaires et gérer ses événements avec JavaScript ",
+        "picture" : "images/sophie.webp",
+        "tags" : [
+                    "Javascript",
+                    "CSS",
+                    "API"
+                ],
+        "titleLink" : "Voir le code",
+        "link" : "https://github.com/hadhoudda/Site-Architecte-Sophie.git"
+    },
+    {
+        "id":"p3",
+        "title" : "Nina Carducci",
+        "description" : "Débugger grâce aux Chrome DevTools et optimiser les performances d'un site de photographe Nina Carducci",
+        "tags" : [
+                    "Débug",
+                    "Audit",
+                    "Wave",
+                    "SEO"
+                ],
+        "picture" : "images/nina.webp",
+        "titleLink":"Voir le site",
+        "link" : "https://hadhoudda.github.io/site-photographe-Nina/"
+    },
+    {
+        "id":"p4",
+        "title" : "Kasa",
+        "description" : "Créez une application web de location immobilière avec React en suivant les maquettes Figma (responsives ). Configurer la navigation entre les pages de l'application avec React Router, développer des éléments de l'interface d'un site web grâce à des composants React. Mettre en œuvre des animations CSS",
+        "picture" : "images/kasa.webp",
+        "tags" : [
+                    "React",
+                    "React router" ,
+                    "CSS"
+                ],
+        "titleLink" : "Voir le site",
+        "link" : "https://hadhoudda.github.io/Application-kasa-React/"
+    },
+    {
+        "id":"p5",
+        "title" : "Mon Vieux Grimoir",
+        "description" : "Développer le backend d'un site de notation de livres. Implémenter l'inscription et la connexion utilisateur, stocker des données de manière sécurisée au base de données, mettre en œuvre des opérations CRUD de manière sécurisée et l'optimisation des images. ",
+        "picture" : "images/grimoir.webp",
+        "tags" : [
+                    "Node.js",
+                    "Express.js",
+                    "Mongo DB",
+                    "API"
+                ],
+        "titleLink" :"Voir le code",
+        "link" :  "https://github.com/hadhoudda/Mon-Vieux-Grimoire.git"
+    },
+    {
+        "id":"p6",
+        "title" : "Mon Portfolio",
+        "description" : "Créer et publier en ligne mon portfolio de développeuse web. Site sur lequel vous êtes actuellement 😜.",
+        "picture" : "images/portfolio.webp",
+        "tags": [
+                    "HTML", 
+                    "CSS",
+                    "React",
+                    "React router"
+                ],
+        "titleLink" : "Voir le code",
+        "link" : "https://github.com/hadhoudda/Portfolio.git"
+    }
+
+]
