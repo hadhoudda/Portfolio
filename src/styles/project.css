@@ -54,7 +54,6 @@
 
 /* RESPONSIVE CSS */
 @media screen and (max-width: 1200px) {
-    
     .title-card,
     .title-description{
         font-size: 32px;
@@ -62,6 +61,12 @@
         padding-left: 15px;
     }
 }
+@media screen and (max-width: 760px) {
+    .card-project{
+        height: 260px;
+    }
+}
+
 /* KEYFRAMES ANIMATION */
 
 @keyframes projectRight {

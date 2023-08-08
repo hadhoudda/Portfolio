@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React, { useState, useEffect} from "react";
 import { useParams } from "react-router-dom";
 import '../styles/details.css';
 import Header from "../components/Header";
@@ -32,12 +32,12 @@ const Details = () => {
   }
 
   return (
-    <>
+    <div className="container-details">
     <Header />
     <ProjectDescrption  project={project} key={project?.id} />
     <Footer />
 
-    </>
+    </div>
     
   )
 }

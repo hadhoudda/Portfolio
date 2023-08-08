@@ -1,15 +1,20 @@
 .card-details{
     background-color: rgb(72, 72, 73);
-    background-size: cover;
-    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-   
 }
+
+.btn-retour{
+    margin-bottom: 50px;
+}
+
+.card-details p{
+    text-align: justify;
+}
+
 .content-details{
-    background-color: rgb(113, 113, 113);
+    background-color: rgb(101, 101, 101);
     border-radius: 5%;
     border: 5px solid white;
     box-shadow: 0 0 5px rgb(228, 237, 237),
@@ -18,11 +23,51 @@
     padding: 20px;
     margin: 150px 0 50px 0;
     width: 50%;
-    height: 400px;
+    height: 330px;
 }
+
 .title-description{
     color: white;
     font-size: 36px;
     font-weight: 600;
-    padding-left: 15px;
+}
+
+.tag-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+/* RESPONSIVE CSS */
+
+@media screen and (max-width: 1200px) {
+    .card-details{
+        padding-top: 150px;
+    }
+
+    .content-details{
+        height: auto;
+        width: 65%;
+        margin: 100px 0;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .content-details{
+        margin: 100px 0 70px 0;
+    }
+    .card-details{
+        padding-top: 30px;
+    }
+    .title-description{
+        font-size: 30px;
+        font-weight: 600;
+       
+    }
+    .tag-container{
+        gap: 5px;
+    }
+   
 }

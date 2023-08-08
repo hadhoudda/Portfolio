@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     gap: 10%;
+    margin-bottom: 20px;
 }
 .form-contact{
     padding-left: 50px;
@@ -36,6 +37,10 @@ form textarea{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
+    background-image:url(../assets/mer.webp) ;
+    background-size: cover;
+    background-position: center;
 }
 .info-contact i{
     color: white;
@@ -74,6 +79,7 @@ form textarea{
     background-color: forestgreen;
     border-radius: 50%;
     padding: 10px;
+    margin-bottom: 10px;
     
 }
 
@@ -148,4 +154,5 @@ form textarea{
     .text-form{
         font-size: 14px;
     }
+    
 }

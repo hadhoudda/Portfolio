@@ -16,14 +16,14 @@
         "id":"p2",
         "title" : "Sohie Bluel",
         "description" : "Créez une page web dynamique avec JavaScript. Manipuler les éléments du DOM, récupérer les données utilisateurs via des formulaires et gérer ses événements avec JavaScript ",
-        "picture" : "images/kasa.webp",
+        "picture" : "images/sophie.webp",
         "tags" : [
                     "Javascript",
                     "CSS",
                     "API"
                 ],
         "titleLink" : "Voir le code",
-        "link" : "https://hadhoudda.github.io/Application-kasa-React/"
+        "link" : "https://github.com/hadhoudda/Site-Architecte-Sophie.git"
     },
     {
         "id":"p3",
@@ -33,12 +33,11 @@
                     "Débug",
                     "Audit",
                     "Wave",
-                    "SEO",
-                    "schema.org"
+                    "SEO"
                 ],
         "picture" : "images/nina.webp",
-        "titleLink":"Voir le code",
-        "link" : "https://github.com/hadhoudda/site-photographe-Nina.git"
+        "titleLink":"Voir le site",
+        "link" : "https://hadhoudda.github.io/site-photographe-Nina/"
     },
     {
         "id":"p4",
@@ -65,7 +64,7 @@
                     "API"
                 ],
         "titleLink" :"Voir le code",
-        "site" :  "https://github.com/hadhoudda/Mon-Vieux-Grimoire.git"
+        "link" :  "https://github.com/hadhoudda/Mon-Vieux-Grimoire.git"
     },
     {
         "id":"p6",
@@ -78,8 +77,8 @@
                     "React",
                     "React router"
                 ],
-        "titleLink" : "Voir le site",
-        "link" : " https://hadhoudda.github.io/Portfolio/"
+        "titleLink" : "Voir le code",
+        "link" : "https://github.com/hadhoudda/Portfolio.git"
     }
 
 ]

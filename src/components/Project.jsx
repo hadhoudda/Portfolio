@@ -9,9 +9,9 @@ export default function Project({project}) {
                 <h4 className='title-card'> {project?.title}</h4>
                 <div className="content-btn">
                     
-                    <Link to={project?.site} target="_blank">
+                    <Link to={project?.link} target="_blank">
                         <button className='btn-project'>
-                            {project.titleLink} <i className='bx bx-chevron-right'></i>
+                            {project?.titleLink} <i className='bx bx-chevron-right'></i>
                         </button> 
                     </Link>
                     <Link to ={`/portfolio/details/${project.id}`} >

@@ -3,9 +3,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image:url(../assets/mer.webp) ;
-    background-size: cover;
-    background-position: center;
 }
 
 .contact {
@@ -15,7 +12,5 @@
 
 /* RESPONSIVE CSS */
 @media screen and (max-width: 1024px) {
-    .container-contact {
-        height: auto;
-    }
+    
 }
