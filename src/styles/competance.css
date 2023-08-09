@@ -1,16 +1,17 @@
 .competance{
-    background-image:url(../assets/ciel.webp) ;
+    /* background-image:url(../assets/f6.jpg) ;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     height: 100vh;
+    background-color: #071526;
 }
 p,
 h3{    
-    color: rgb(233, 221, 221);
+    color: white;
 }
 h3{
     text-align: center;
@@ -94,7 +95,7 @@ h3{
         width: 80%;
         height: 300px;
         gap: 10px;
-        padding:0px 50px 50px 50px;
+        padding:0px 30px 50px 30px;
     }
     .container-skills-tools{
         flex-direction: column;

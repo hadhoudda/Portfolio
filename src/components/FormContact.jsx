@@ -1,4 +1,4 @@
-import React, { useRef} from 'react';
+import React, { useRef, useState} from 'react';
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import '../styles/formcontact.css';
@@ -7,7 +7,13 @@ import '../styles/formcontact.css';
 
 function FormContact() {
     const form = useRef()
-
+    const [isAlert, setAlert] = useState(false);
+    
+    const handleAlert = () =>{
+        setAlert(true);
+        setTimeout(() => {
+            setAlert(false);}, 4000);
+        }    
     const sendEmail = (e) => {
         e.preventDefault();
     
@@ -42,7 +48,11 @@ function FormContact() {
                         name='subject'
                         />
                     <textarea name="message" placeholder='Votre message*' ></textarea>
-                    <button type='submit' className='btn-message'>Envoyer </button>
+                    <div >
+                        {isAlert && <p className="message-confirm">message bien envoyé</p>}
+                        <button onClick={handleAlert} type='submit' className='btn-message'>Envoyer </button>
+                    </div>
+                    
                     <p className="text-form">* Champ obligatoire</p>
                 </form>
                 <div className="info-contact">
