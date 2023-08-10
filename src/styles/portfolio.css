@@ -2,11 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image:url(../assets/font-portfolio.jpg) ;
-    background-size: cover;
-    background-position: center;
 }
 .title-portfolio{
+    color: var(--color-grey);
     font-size: 36px;
     padding: 100px 0 50px 0;
 }
@@ -20,10 +18,10 @@
     padding-bottom: 30px;
 }
 
-.portfolio{
+/* .portfolio{
     color: white;
     z-index: 2;
-}
+} */
 .card-project-p:hover{
     display: none;
 }
@@ -37,7 +35,6 @@
     }
     .title-card,
     .title-description{
-        color: white;
         font-size: 24px;
         font-weight: 500;
         padding-left: 15px;

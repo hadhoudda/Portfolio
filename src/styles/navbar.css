@@ -1,5 +1,4 @@
 nav{
-   
     font-size: 22px;
     height: 50px;
 }
@@ -38,9 +37,7 @@ nav{
         padding-right: 30px;
         font-size: 14px;
     }
-
 }
-
 
 /* RESPONSIVE CSS */
 @media screen and (max-width: 680px) {

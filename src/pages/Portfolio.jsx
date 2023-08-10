@@ -7,20 +7,6 @@ import Project from '../components/Project';
 
 
 export default function Portfolio() {
-//   const [data, setData] = useState([]);
-//   const getData = async () => {
-//       const response = await fetch("data.json", {
-//           headers: {
-//               "Content-Type": "application/json",
-//               Accept: "application/json",
-//           },
-//       });
-//       const cards = await response.json();
-//       setData(cards);
-//   };
-//   useEffect(() => {
-//       getData();
-//   }, []);
   return (
     <div className="container-portfolio">
         <Header />

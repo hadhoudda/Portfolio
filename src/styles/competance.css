@@ -1,7 +1,4 @@
 .competance{
-    /* background-image:url(../assets/f6.jpg) ;
-    background-size: cover;
-    background-position: center; */
     display: flex;
     flex-direction: column;
     align-items: center;

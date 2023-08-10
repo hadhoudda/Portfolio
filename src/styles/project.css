@@ -17,13 +17,14 @@
 }
 
 .title-card{
-    color: rgb(77, 88, 93);
+    color: var(--color-grey);
     font-size: 36px;
     font-weight: 600;
     padding-left: 15px;
 }
 .text-project{
     padding: 20px;
+    font-size: 18px;
 }
 .title-description{
     text-align: center;
