@@ -9,7 +9,7 @@ export default function Project({project}) {
                 <h4 className='title-card'> {project?.title}</h4>
                 <div className="content-btn">
                     
-                    <Link to={project?.link} target="_blank">
+                    <Link to={project?.link}>
                         <button className='btn-project'>
                             {project?.titleLink} <i className='bx bx-chevron-right'></i>
                         </button> 

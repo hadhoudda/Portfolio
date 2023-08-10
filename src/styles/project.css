@@ -3,7 +3,9 @@
     background-color: rgb(235, 237, 242);
     height :300px;
     border-radius:20px;
-    box-shadow: 0 0 5px #0ef;
+    box-shadow: 0 0 5px rgb(99, 99, 99),
+    0 0 10px rgb(99, 99, 99),
+    0 0 15px rgb(99, 99, 99);
     animation: projectRight 1s ease ;
 }
 
