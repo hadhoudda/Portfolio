@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fd3603b6.css",
-    "main.js": "/Portfolio/static/js/main.51354e36.js",
+    "main.css": "/Portfolio/static/css/main.cdc29bd5.css",
+    "main.js": "/Portfolio/static/js/main.70d71931.js",
     "static/js/787.cda612ba.chunk.js": "/Portfolio/static/js/787.cda612ba.chunk.js",
-    "static/media/font-portfolio.jpg": "/Portfolio/static/media/font-portfolio.bf04a43a294c06791c20.jpg",
-    "static/media/font-contact.webp": "/Portfolio/static/media/font-contact.d020a8f2f8ac2bca0230.webp",
     "static/media/font-ecran.webp": "/Portfolio/static/media/font-ecran.01b8f27e1ed9e294ca36.webp",
-    "static/media/houda.png": "/Portfolio/static/media/houda.bcd60a9fc236580b42d3.png",
     "static/media/profil.webp": "/Portfolio/static/media/profil.f301d911d6d851aa99b8.webp",
+    "static/media/houda.png": "/Portfolio/static/media/houda.1721b7a744606bd51315.png",
     "index.html": "/Portfolio/index.html",
-    "main.fd3603b6.css.map": "/Portfolio/static/css/main.fd3603b6.css.map",
-    "main.51354e36.js.map": "/Portfolio/static/js/main.51354e36.js.map",
+    "main.cdc29bd5.css.map": "/Portfolio/static/css/main.cdc29bd5.css.map",
+    "main.70d71931.js.map": "/Portfolio/static/js/main.70d71931.js.map",
     "787.cda612ba.chunk.js.map": "/Portfolio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd3603b6.css",
-    "static/js/main.51354e36.js"
+    "static/css/main.cdc29bd5.css",
+    "static/js/main.70d71931.js"
   ]
 }
