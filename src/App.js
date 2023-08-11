@@ -1,6 +1,5 @@
 import {  Routes, Route, BrowserRouter } from "react-router-dom";
 import React from "react";
-import './styles/app.css';
 import Home from './pages/Home';
 import Profil from './components/Profil';
 import Competance from './pages/Competance';

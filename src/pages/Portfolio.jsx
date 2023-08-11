@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import Project from '../components/Project';
 
 
-export default function Portfolio() {
+function Portfolio() {
   return (
     <div className="container-portfolio">
         <Header />
@@ -22,3 +22,5 @@ export default function Portfolio() {
     </div>
   )
 }
+
+export default Portfolio ;

@@ -21,17 +21,17 @@ function Navbar() {
         return () => {
             window.removeEventListener('resize', changeWidth);
         }
-
     }, [])
+    
   return (
     <nav className='nav-responsive'>
-            <ul className="liste">
-                <Link to = '/Portfolio'><li className="items">Accueil </li></Link>
-                <Link to = '/Portfolio/profil'><li className="items">À propos </li></Link>
-                <Link to = '/Portfolio/competance'><li className="items">Compétences </li></Link>
-                <Link to = '/Portfolio/portfolio'><li className="items">Portfolio </li></Link>
-                <Link to = '/Portfolio/contact'><li className="items">Contact </li></Link>
-            </ul>
+        <ul className="liste">
+            <Link to = '/Portfolio'><li className="items">Accueil </li></Link>
+            <Link to = '/Portfolio/profil'><li className="items">À propos </li></Link>
+            <Link to = '/Portfolio/competance'><li className="items">Compétences </li></Link>
+            <Link to = '/Portfolio/portfolio'><li className="items">Portfolio </li></Link>
+            <Link to = '/Portfolio/contact'><li className="items">Contact </li></Link>
+        </ul>
         {toggleMenu && ( //si toggleMenu true envoi liste si false rien de tout
             <ul className=" liste-responsive">
                 <Link to = '/Portfolio' className="link-items"><li onClick={toggleNavSmallScreen} className="items" >Accueil </li></Link>
@@ -39,11 +39,9 @@ function Navbar() {
                 <Link to = '/Portfolio/competance' className="link-items"><li onClick={toggleNavSmallScreen} className="items">Compétences </li></Link>
                 <Link to = '/Portfolio/portfolio' className="link-items"><li onClick={toggleNavSmallScreen} className="items">Portfolio </li></Link>
                 <Link to = '/Portfolio/contact' className="link-items"><li onClick={toggleNavSmallScreen} className="items">Contact </li></Link>
-            </ul>
-            
+            </ul>            
         )}
-      
-      <div onClick={toggleNavSmallScreen} ><i className="fa-solid fa-bars btn"></i></div>
+        <div onClick={toggleNavSmallScreen} ><i className="fa-solid fa-bars btn"></i></div>
     </nav>
   )
 }

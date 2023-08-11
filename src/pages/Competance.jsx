@@ -40,7 +40,6 @@ function Competance() {
                     <i className='bx bxl-mongodb style-icone-skill icone-mongodb' ></i>
                     <i className='bx bxl-figma style-icone-skill icone-figma'></i>
                     <i className='bx bxl-trello style-icone-skill icone-trello' ></i>
-                    
 
                 </div>
             </section>

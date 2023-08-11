@@ -12,7 +12,6 @@ function Header() {
                 <Navbar/>
             </div>
         </header>
-        
     )
 }
 

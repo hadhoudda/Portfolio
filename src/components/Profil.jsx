@@ -9,7 +9,7 @@ function Profil() {
         <section className="container-profil">
             <Header/>
             <div className="profil">
-                <h2 className="title-profil">A PROPOS DE MOI</h2>
+                <h2 className="title-profil">À propos de moi</h2>
                 <div className="contenu-profil">
                     <img className ="photo-profil" src={profil} alt='profil__houda' />
                     <p>
@@ -22,7 +22,6 @@ function Profil() {
                     </p>
 
                 </div>
-                
             </div>
             <Footer />
         </section>

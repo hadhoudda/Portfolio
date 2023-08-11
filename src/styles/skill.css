@@ -10,7 +10,6 @@
 .info{
     display: flex;
     justify-content: space-between;
-    
 }
 .bar{
     width: 100%;
@@ -21,7 +20,6 @@
     position: relative;
 }
 .bar span{
-    /* width: 50%; */
     height: 100%;
     position: absolute;
     left: 0;
@@ -31,23 +29,23 @@
 }
 .HTML{
     width: 85%;
-    animation: html 3s;
+    animation: html-css-trello-github 3s;
 }
 .CSS{
     width: 85%;
-    animation: CSS 3s;
+    animation: html-css-trello-github 3s;
 }
 .Javascript{
     width: 70%;
-    animation: Javascript 3s;
+    animation: Javascript-React 3s;
 }
 .React{
     width: 70%;
-    animation: React 3s;
+    animation: Javascript-React 3s;
 }
 .Node {
     width: 65%;
-    animation: Node 3s;
+    animation: node-postman 3s;
 }
 .VS{
     width: 92%;
@@ -55,11 +53,11 @@
 }
 .Github{
     width: 85%;
-    animation: Github 3s;
+    animation: html-css-trello-github 3s;
 }
 .Postman {
     width: 65%;
-    animation: Postman 3s;
+    animation: node-postman 3s;
 }
 .MongoDB {
     width: 60%;
@@ -71,21 +69,12 @@
 }
 .Trello{
     width: 85%;
-    animation: Trello 3s;
-}
-.Java{
-    width: 20%;
-    animation: Java 3s;
-}
-/* RESPONSIVE CSS */
-@media screen and (max-width: 680px) {
-
-
+    animation: html-css-trello-github 3s;
 }
 
 /* Animation */
 
-@keyframes html {
+@keyframes html-css-trello-github {
     0%{
         width: 0%;
     }
@@ -93,15 +82,8 @@
         width: 85%;
     }
 }
-@keyframes CSS {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 85%;
-    }
-}
-@keyframes Javascript{
+
+@keyframes Javascript-React{
     0%{
         width: 0%;
     }
@@ -109,20 +91,12 @@
         width:70%;
     }
 }
-@keyframes Node{
+@keyframes node-postman{
     0%{
         width: 0%;
     }
     100%{
         width: 65%;
-    }
-}
-@keyframes React {
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 70%;
     }
 }
 
@@ -134,22 +108,7 @@
         width: 92%;
     }
 }
-@keyframes Github{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width:85%;
-    }
-}
-@keyframes Postman{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 65%;
-    }
-}
+
 @keyframes  MongoDB{
     0%{
         width: 0%;
@@ -164,21 +123,5 @@
     }
     100%{
         width:75%;
-    }
-}
-@keyframes Trello{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 85%;
-    }
-}
-@keyframes Java{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 20%;
     }
 }
