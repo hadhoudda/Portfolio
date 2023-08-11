@@ -5,11 +5,13 @@ import SocialMedia from "./SocialMedia";
 function Description() {
   return (
     <section className='section-home'>
-        <h1>HOUDA BEN ABDALLAH</h1>
+        <h1 className='title'>Bienvenue sur mon <br /> portfolio</h1>
         <p className="txt-home">
-        Développeuse web full-stack junior
+        Je suis Houda,
+        développeuse web full-stack junior
         </p>
         <SocialMedia />
+        
     </section>
   )
 }

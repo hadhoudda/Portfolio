@@ -1,20 +1,19 @@
 .container-profil{
     height: 100vh;
-    background-color: rgb(239, 242, 235);
+    background-color: var(--font-color);
     font: inherit ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
 }
  .profil{
-    padding-top: 50px;
+    margin-top: 50px;
  }
 
-h2{
-    color: black;
+.title-profil{
     text-align: center;
-    font-size: 42px;
-    padding-top: 100px;
+    margin-top: 60px;
 }
 
 .contenu-profil p{
@@ -28,7 +27,7 @@ h2{
 .contenu-profil{
     display: flex;
     gap: 50px;
-    background-color: rgb(239, 242, 235);
+    background-color: var(--font-color);
     margin: 100px 100px 0 100px;
 }
 

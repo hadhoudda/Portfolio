@@ -1,9 +1,9 @@
-.container-home {
+.container-home{
       height: 100vh;
-      background-image:url(../assets/font-ecran.webp) ;
-      background-size: cover;
-      background-position: center;
+      background-color: var(--font-color);
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      font-family: 'Montserrat', sans-serif;
+
 }

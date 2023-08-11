@@ -10,7 +10,7 @@ export default function Portfolio() {
   return (
     <div className="container-portfolio">
         <Header />
-        <h3 className='title-portfolio'>Mon portfolio</h3>
+        <h2 className='title-portfolio'>Mon portfolio</h2>
         <section className='content-portfolio'>
             {data &&
             data.length > 0 &&

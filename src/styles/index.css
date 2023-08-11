@@ -3,13 +3,13 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'poppins' , sans-serif;
   font: inherit ;
   font-size: 100%;
   vertical-align: baseline;
 }
 body {
   background-color: var(--font-color);
+  font-family: 'Montserrat', sans-serif;
   min-width: 320px;
   max-width: 1900px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -19,15 +19,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 :root{
-  --font-color :white;
-  --color-grey : rgb(77, 88, 93);
+  --font-color :rgb(234 233 230);
+  --color-grey : rgb(71, 80, 84);
+  --color-green :rgb(93, 101, 93);
+  --color-green-clear: rgb(112, 114, 114);
 }
 img {
   object-fit:cover;
   width: 100%;
  }
-
-
+p{
+  color: black;
+}
+h2{
+  color: var(--color-grey);
+  font-size: 56px;
+  font-weight: 600;
+}
 a {
   text-decoration: none;
   color: white;

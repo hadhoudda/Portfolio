@@ -5,15 +5,15 @@
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid var(--color-green);
     border-radius: 50%;
     font-size: 30px;
-    color:#0ef;
+    color:var(--color-green);
     margin: 30px 15px 30px 0;
 }
 
 .link-social i {
-    color: #0ef;
+    color: var(--color-green);
 }
 
 .link-social i:hover{
@@ -21,15 +21,15 @@
 }
 
 .link-social a:hover{
-    background:#0ef ;
-    box-shadow: 0 0 20px #0ef;
+    background:var(--color-green);
+    box-shadow: 0 0 20px var(--color-green);
 }
 
 .btn-cv{
     display: inline-block;
     margin-top: 10px;
     padding: 12px 28px ;
-    background: #0ef;
+    background: var(--color-green);
     border-radius: 40px;
     font-size: 18px;
     color: #081b29;
@@ -38,18 +38,7 @@
 }
 
 .btn-cv:hover{
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan;
-}
-
-/* RESPONSIVE CSS */
-@media screen and (max-width: 920px) {
-    
-
-}
-
-/* RESPONSIVE CSS */
-@media screen and (max-width: 680px) {
-    
+    box-shadow: 0 0 5px var(--color-green-clear),
+    0 0 25px var(--color-green-clear), 0 0 50px var(--color-green-clear),
+    0 0 100px var(--color-green-clear), 0 0 200px var(--color-green-clear);
 }

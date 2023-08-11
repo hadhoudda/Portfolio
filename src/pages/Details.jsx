@@ -9,32 +9,7 @@ import ProjectDescrption from '../components/ProjectDescrption';
 
 const Details = () => {
   let userId = useParams();
-
-  
-      const project = data.find((card) => card.id === userId.id);
-   
-  
-  
-
-//   const [project, setProject] = useState([0]);
-
-//   const getData = async () => {
-//       const response = await fetch("src/data/data.json", {
-//           headers: {
-//               "Content-Type": "application/json",
-//               Accept: "application/json",
-//           },
-//       });
-//       const cards = await response.json();
-//       console.log(cards)
-//       const project = cards.find((card) => card.id === userId.id);
-//       setProject(project);
-//   };
-
-//   useEffect(() => {
-//       getData();
-//   },[]);
-
+  const project = data.find((card) => card.id === userId.id);
   if (!project) {
       return <NotFound />;
   }
