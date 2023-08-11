@@ -23,7 +23,7 @@ function SocialMedia() {
                     <Link to="mailto:ahhouda@yahoo.fr"><i className='bx bx-mail-send'></i></Link>
             </div>
             {/* <Link to="/cv.pdf"  className='btn-cv' download >Télécharger CV </Link> */}
-            <a href="/cv.pdf" className='btn-cv'  download >Télécharger mon CV </a>
+            <a href="./cv.pdf" className='btn-cv'  download >Télécharger mon CV </a>
         </div> 
     </>
     )
