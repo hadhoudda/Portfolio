@@ -22,8 +22,7 @@ function SocialMedia() {
                     <Link to="https://wa.me/+33622464454"><i className='bx bxl-whatsapp'></i></Link>
                     <Link to="mailto:ahhouda@yahoo.fr"><i className='bx bx-mail-send'></i></Link>
             </div>
-            {/* <Link to="/Portfolio/cv.pdf" download className='btn-cv'>Télécharger CV </Link> */}
-            <a href="./cv.pdf" className='btn-cv'  download >Télécharger mon CV </a>
+            <Link to="/public/cv.pdf" download className='btn-cv'>Télécharger CV </Link>
         </div> 
     </>
     )

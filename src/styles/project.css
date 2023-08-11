@@ -18,9 +18,10 @@
 
 .title-card{
     color: var(--color-grey);
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 600;
     padding-left: 15px;
+    padding-bottom: 10px;
 }
 .text-project{
     padding: 20px;
@@ -46,7 +47,7 @@
     border-radius: 40px;
     font-size: 11px;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -56,14 +57,13 @@
 }
 
 /* RESPONSIVE CSS */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
     .title-card,
     .title-description{
-        font-size: 32px;
-        font-weight: 500;
-        padding-left: 15px;
+        font-size: 28px;
     }
 }
+
 @media screen and (max-width: 760px) {
     .card-project{
         height: 260px;

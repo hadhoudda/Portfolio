@@ -9,7 +9,7 @@
 body {
   background-color: var(--font-color);
   font-family: 'Montserrat', sans-serif;
-  min-width: 320px;
+  min-width: 340px;
   max-width: 1900px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
