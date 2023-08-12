@@ -53,7 +53,7 @@
         font-size: 32px;
         font-weight: 700;
         margin:0 10px;
-        padding-top: 40px;
+        padding-top: 10px;
     }
     
     .txt-home{
@@ -61,4 +61,8 @@
         font-weight: 500;
         margin: 10px;
     } 
+
+    .section-home{
+        gap: 18px;
+    }
 }
