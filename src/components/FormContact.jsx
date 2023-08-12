@@ -2,21 +2,23 @@ import React, { useRef, useState} from 'react';
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import '../styles/formcontact.css';
-//require('dotenv').config();
 
 function FormContact() {
     const form = useRef()
     const [isAlert, setAlert] = useState(false);
-    
     const handleAlert = () =>{
-        setAlert(true);
-        setTimeout(() => {
-            setAlert(false);}, 4000);
+        const name = document.querySelector('#name').value
+        const email = document.querySelector('#email').value
+        const message = document.querySelector('#message').value
+        if(name !== "" & email !== "" & message !== "" ){
+            setAlert(true);
+            setTimeout(() => {
+                setAlert(false);}, 4000);
+            }
         }  
 
     const sendEmail = (e) => {
         e.preventDefault();
-        //emailjs.sendForm(process.env.REACT_APP_YOUR_SERVICE_ID, process.env.REACT_APP_YOUR_TEMPLATE_ID , form.current, process.env.REACT_APP_YOUR_PUBLIC_KEY)
         emailjs.sendForm('service_xbw7xvx', 'template_x1ohdje', form.current, 'X1Cf5ovioyGwNMk3Y')
             .then((result) => {
                 console.log(result.text);
@@ -34,11 +36,11 @@ function FormContact() {
             </p>
             <div className="content-form-contact">
                 <form ref={form} onSubmit={sendEmail} className='form-contact'>
-                    <input type="text" 
+                    <input type="text" id='name'
                         placeholder='votre nom*'
                         name='user_name'
                         required />
-                    <input type="email" 
+                    <input type="email" id='email'
                         placeholder='Votre email*'
                         name='user_email'
                         required />
@@ -46,7 +48,7 @@ function FormContact() {
                         placeholder='Sujet'
                         name='subject'
                         />
-                    <textarea name="message" placeholder='Votre message*' ></textarea>
+                    <textarea name="message" placeholder='Votre message*'id='message' required></textarea>
                     <div >
                         {isAlert && <p className="message-confirm">message bien envoyé</p>}
                         <button onClick={handleAlert} type='submit' className='btn-message'>Envoyer </button>
