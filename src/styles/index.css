@@ -20,8 +20,8 @@ body {
 :root{
   --font-color :rgb(234 233 230);
   --color-grey : rgb(71, 80, 84);
-  --color-green :rgb(191, 85, 115);
-  --color-green-clear: rgb(151, 75, 104);
+  --color-green :rgb(55, 13, 86);
+  --color-green-clear: rgb(127, 117, 196);
 }
 img {
   object-fit:cover;
