@@ -18,7 +18,7 @@ function SocialMedia() {
         <div className='home-social'>
             <div className="link-social">
                     <Link to="https://github.com/hadhoudda"><i className='bx bxl-github'></i></Link>
-                    <Link to="https://www.linkedin.com/in/houda-ben-abdallah-68564425b"><i className='bx bxl-linkedin'></i></Link>
+                    <Link to="https://www.linkedin.com/in/houda-ben-abdallah-developpeuse-web/"><i className='bx bxl-linkedin'></i></Link>
                     <Link to="https://wa.me/+33622464454"><i className='bx bxl-whatsapp'></i></Link>
                     <Link to="mailto:ahhouda@yahoo.fr"><i className='bx bx-mail-send'></i></Link>
             </div>
