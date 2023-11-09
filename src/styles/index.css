@@ -6,6 +6,7 @@
   font-size: 100%;
   vertical-align: baseline;
 }
+
 body {
   background-color: var(--font-color);
   font-family: 'Montserrat', sans-serif;
@@ -17,6 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 :root{
   --font-color :rgb(234 233 230);
   --color-grey : rgb(71, 80, 84);
