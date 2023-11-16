@@ -13,7 +13,7 @@ function Profil() {
                 <div className="contenu-profil">
                     <img className ="photo-profil" src={profil} alt='profil__houda' />
                     <p>
-                        Hello 😊! Je m’appelle Houda, développeuse Web fullstack junior, passionnée 
+                        Hello 😊! Je m’appelle Houda, développeuse fullstack junior, Javascript, React, Node.Js, passionnée 
                         par le développement front-end et back-end, assoiffée de nouvelles connaissances, d'apprendre de nouvelles techniques
                         curieuse, autonome et ayant l'esprit d’équipe..<br></br>
                         Ayant toujours été passionnée par l'informatique, j'ai décidé de me lancer dans 

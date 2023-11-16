@@ -8,7 +8,7 @@ function Description() {
         <h1 className='title'>Bienvenue sur mon <br /> portfolio</h1>
         <p className="txt-home">
         Je suis Houda,
-        développeuse web full-stack junior
+        développeuse full-stack junior
         </p>
         <SocialMedia />
         

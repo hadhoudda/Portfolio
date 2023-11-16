@@ -22,7 +22,7 @@
     display: block;
     font-size: 20px;
     width: 65%;
-    text-align: justify;
+    text-align:center
 }
 .contenu-profil{
     display: flex;
