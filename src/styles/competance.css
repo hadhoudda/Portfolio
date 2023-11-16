@@ -58,6 +58,9 @@ h3{
 .icone-css{
     color:#dfdc0b;
 }
+.icone-sass{
+    color: #7e0c53;
+}
 .icone-react{
     color: #305b8e;
 }
@@ -70,9 +73,6 @@ h3{
 }
 .icone-vscode{
     color: #305b8e;
-}
-.icone-trello{
-    color: #11488b;
 }
 .icone-github{
     background-color: white;

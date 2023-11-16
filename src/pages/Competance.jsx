@@ -32,6 +32,7 @@ function Competance() {
                 <div className="icone-skills">
                     <i className='bx bxl-html5 style-icone-skill icone-html'></i>
                     <i className='bx bxl-css3 style-icone-skill icone-css'></i>
+                    <i className='bx bxl-sass style-icone-skill icone-sass'></i>
                     <i className='bx bxl-javascript style-icone-skill icone-javascript'></i>
                     <i className='bx bxl-react style-icone-skill icone-react' ></i>
                     <i className='bx bxl-nodejs style-icone-skill icone-node'></i>
@@ -39,7 +40,6 @@ function Competance() {
                     <i className='bx bxl-github style-icone-skill icone-github'></i>
                     <i className='bx bxl-mongodb style-icone-skill icone-mongodb' ></i>
                     <i className='bx bxl-figma style-icone-skill icone-figma'></i>
-                    <i className='bx bxl-trello style-icone-skill icone-trello' ></i>
 
                 </div>
             </section>
