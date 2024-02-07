@@ -1,4 +1,5 @@
 footer{
+    margin-top: 10px;
     font-size: 14px;
     text-align: center;
     color: white;
@@ -9,7 +10,7 @@ footer{
 }
 
 .text-footer{
-    padding-top: 12px;
+    padding: 12px 0 10px 0;
 }
 /* RESPONSIVE CSS */
 @media screen and (max-width: 680px) {
