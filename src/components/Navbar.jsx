@@ -16,7 +16,7 @@ function Navbar() {
         <ul className={toggleMenu ? "liste": "liste-responsive" }>
         <Link to = '/Portfolio'><li className="items">Accueil </li></Link>
             <Link to = '/Portfolio/profil'><li className="items">À propos </li></Link>
-            <Link to = '/Portfolio/competance'><li className="items">Compétences </li></Link>
+            <Link to = '/Portfolio/competence'><li className="items">Compétences </li></Link>
             <Link to = '/Portfolio/portfolio'><li className="items">Portfolio </li></Link>
             <Link to = '/Portfolio/contact'><li className="items">Contact </li></Link>
         </ul>

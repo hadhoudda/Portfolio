@@ -1,4 +1,4 @@
-.competance{
+.competence{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +17,7 @@ h3{
     font-weight: 700;
     padding-bottom: 20px;
 }
-.container-competance{
+.container-competence{
     width: 100%;
 }
 .container-skills-tools{
@@ -68,7 +68,7 @@ h3{
 .icone-mongodb{
     color: rgb(6, 125, 55);
 }
-.icone-figma{
+.icone-mysql{
     color: #e54e0d;
 }
 .icone-vscode{
@@ -81,7 +81,7 @@ h3{
 
 /* RESPONSIVE CSS */
 @media screen and (max-width: 680px) {
-    .competance{
+    .competence{
         height: auto;
     }
     .content{

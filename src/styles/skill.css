@@ -45,10 +45,11 @@
 }
 .Node {
     width: 85%;
-    animation: node-postman 3s;
+    animation: node-postman-express 3s;
 }
-.VS{
-    width: 98%;
+.VS,
+.Eclipse{
+    width: 95%;
     animation: VS 3s;
 }
 .Github{
@@ -57,23 +58,19 @@
 }
 .Postman {
     width: 85%;
-    animation: node-postman 3s;
+    animation: node-postman-express 3s;
 }
 .MongoDB {
     width: 80%;
     animation: MongoDB 3s;
 }
-.Figma {
+.MySQL {
     width: 75%;
-    animation: Figma 3s;
+    animation: MySQL 3s;
 }
-.Trello{
-    width: 85%;
-    animation: html-css-trello-github 3s;
-}
-.Express{
-    width: 85%;
-    animation: html-css-trello-github 3s;
+.Spring{
+    width: 65%;
+    animation:  spring 3s;
 }
 /* Animation */
 
@@ -94,7 +91,7 @@
         width:90%;
     }
 }
-@keyframes node-postman{
+@keyframes node-postman-express{
     0%{
         width: 0%;
     }
@@ -108,7 +105,7 @@
         width: 0%;
     }
     100%{
-        width: 98%;
+        width: 95%;
     }
 }
 
@@ -120,11 +117,19 @@
         width: 80%;
     }
 }
-@keyframes Figma{
+@keyframes MySQL{
     0%{
         width: 0%;
     }
     100%{
         width:75%;
+    }
+}
+@keyframes spring{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:65%;
     }
 }

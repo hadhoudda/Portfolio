@@ -1,23 +1,23 @@
 import React from 'react';
-import '../styles/competance.css';
+import '../styles/competence.css';
 import skills from "../data/skills.json";
 import tools from '../data/tools.json';
 import Skill from '../components/Skill';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-function Competance() {
+function Competence() {
     return (
-        <div className='competance'> 
+        <div className='competence'> 
             <Header />
-            <section className="container-competance">
+            <section className="container-competence">
                 <div className="container-skills-tools">
                     <div className="content">
                         <h3>Compétances techniques</h3>
                             {skills &&
                             skills.length > 0 &&
-                            skills.map((competance) => {
-                                return (<Skill skill={competance.skill} porcent={competance.porcent } key={competance?.id} />);
+                            skills.map((competence) => {
+                                return (<Skill skill={competence.skill} porcent={competence.porcent } key={competence?.id} />);
                             })}
                     </div>
                     <div className="content">
@@ -39,7 +39,7 @@ function Competance() {
                     <i className='bx bxl-visual-studio style-icone-skill icone-vscode'></i>
                     <i className='bx bxl-github style-icone-skill icone-github'></i>
                     <i className='bx bxl-mongodb style-icone-skill icone-mongodb' ></i>
-                    <i className='bx bxl-figma style-icone-skill icone-figma'></i>
+                    {/* <i className='bx bxl-mysql style-icone-skill icone-mysql'></i> */}
 
                 </div>
             </section>
@@ -48,4 +48,4 @@ function Competance() {
     )
 }
 
-export default Competance;
+export default Competence;

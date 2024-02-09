@@ -6,7 +6,7 @@
     },
     {
         "id":2,
-        "skill":"CSS-SASS",
+        "skill":"CSS3-SASS",
         "porcent":95
     },
     {
@@ -26,8 +26,8 @@
         "porcent":85
     },
     {
-        "id":5,
-        "skill":"Express Js",
-        "porcent":85
+        "id":6,
+        "skill":"Spring Boot",
+        "porcent":65
     }
 ]
