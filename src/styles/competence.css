@@ -65,19 +65,22 @@ h3{
     color: #305b8e;
 }
 .icone-node,
-.icone-mongodb{
+.icone-spring-boot{
     color: rgb(6, 125, 55);
 }
 .icone-mysql{
-    color: #e54e0d;
+    height: 45px;
+    width: 45px;
 }
 .icone-vscode{
     color: #305b8e;
 }
-.icone-github{
+.icone-github,
+.icone-data{
     background-color: white;
     border-radius: 50%;
 }
+
 
 /* RESPONSIVE CSS */
 @media screen and (max-width: 680px) {

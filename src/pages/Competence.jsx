@@ -38,8 +38,8 @@ function Competence() {
                     <i className='bx bxl-nodejs style-icone-skill icone-node'></i>
                     <i className='bx bxl-visual-studio style-icone-skill icone-vscode'></i>
                     <i className='bx bxl-github style-icone-skill icone-github'></i>
-                    <i className='bx bxl-mongodb style-icone-skill icone-mongodb' ></i>
-                    {/* <i className='bx bxl-mysql style-icone-skill icone-mysql'></i> */}
+                    <i className='bx bxs-data style-icone-skill icone-data' ></i>
+                    <i className='bx bxl-spring-boot style-icone-skill icone-spring-boot'></i>
 
                 </div>
             </section>
