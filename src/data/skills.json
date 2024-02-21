@@ -6,28 +6,28 @@
     },
     {
         "id":2,
-        "skill":"CSS3-SASS",
-        "porcent":95
+        "skill":"CSS3-Bootstrap5-SASS",
+        "porcent":90
     },
     {
         
         "id":3,
         "skill":"Javascript",
-        "porcent":90
+        "porcent":80
     },
     {
         "id":4,
         "skill":"React JS",
-        "porcent":90
+        "porcent":80
     },
     {
         "id":5,
         "skill":"Node Js",
-        "porcent":85
+        "porcent":70
     },
     {
         "id":6,
         "skill":"Spring Boot",
-        "porcent":65
+        "porcent":55
     }
 ]
