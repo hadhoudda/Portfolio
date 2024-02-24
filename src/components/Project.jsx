@@ -15,7 +15,7 @@ function Project({project}) {
             </Link>
             <Link to ={`/portfolio/details/${project.id}`} >
                 <button className='btn-project'>
-                    Plus d'indos <i className='bx bx-chevron-right'></i>
+                    Plus d'infos <i className='bx bx-chevron-right'></i>
                 </button>
             </Link>
         </div>
