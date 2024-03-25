@@ -28,11 +28,11 @@ h3{
     align-items: center;
     justify-content: center;
     padding-top: 120px;
-    gap: 30%;
+    gap: 20%;
 }
 .content{
     width: 80%;
-    padding:10px 50px 50px 50px ;
+    margin:10px 50px 50px 50px ;
 }
 .icone-skills{
     display: flex;
@@ -83,6 +83,14 @@ h3{
    
     h3{
         font-size: 20px;
+    }
+    .container-skills-tools{
+        padding-top: 90px;
+        gap: 15%;
+    }
+    .icone-skills{
+        padding: 0;
+        margin-top: 50px;
     }
     .style-icone-skill{
         font-size: 180%;
